@@ -1,0 +1,6 @@
+
+
+botao da direita estava indo pra esquerda e funcionava so uma vez
+botao da esquerda funcionava porem ia tudo pra esquerda
+
+continuo n entendendo o q eu fiz de errado
