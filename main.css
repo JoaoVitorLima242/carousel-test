@@ -40,6 +40,7 @@ h1 {
 .carousel .switchLeft {
     position: absolute;
     left: -55px;
+    margin-left: 20px;
 }
 
 .carousel .switchRight {

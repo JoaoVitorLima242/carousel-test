@@ -1,5 +1,5 @@
 const sliders = document.querySelector(".carouselbox");
-var scrollPerClick = 500;
+var scrollPerClick = 194;
 var imagePadding = 20;
 
 var scrollAmount = 0;
