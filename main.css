@@ -28,9 +28,8 @@ h1 {
     font-weight: bold;
     height: 100%;
     line-height: 220px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    background-color: rgb(82, 82, 82);
     font-family: sans-serif;
     top: 0;
     z-index: 3;
@@ -40,12 +39,12 @@ h1 {
 }
 .carousel .switchLeft {
     position: absolute;
-    left: -35px;
+    left: -55px;
 }
 
 .carousel .switchRight {
     position: absolute;
-    right: -35px;
+    right: -55px;
 }
 .carouselbox{
     height: 250px;
@@ -57,6 +56,9 @@ h1 {
     padding-bottom: 10px !important;
     align-items: center;
     display: flex;
+}
+.carouselbox::-webkit-scrollbar {
+display: none;
 }
 
 .carouselbox img {
