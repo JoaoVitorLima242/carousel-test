@@ -39,13 +39,13 @@ h1 {
 }
 .carousel .switchLeft {
     position: absolute;
-    left: -18px;
+    left: -35px;
     margin-left: -12px;
 }
 
 .carousel .switchRight {
     position: absolute;
-    right: -18px;
+    right: -35px;
     margin-right: -12px;
 }
 .carouselbox{
@@ -85,4 +85,17 @@ display: none;
 }
 .sliderButton:hover{
   opacity: 1;
+}
+@media all and (max-width: 700px) {
+    .carousel .switchLeft {
+        position: absolute;
+        left: -18px;
+        margin-left: -12px;
+    }
+    
+    .carousel .switchRight {
+        position: absolute;
+        right: -18px;
+        margin-right: -12px;
+    }
 }
